@@ -1,0 +1,14 @@
+Problem: Arcade machine buttons have provision for a lamp to illuminate
+the button.  Originally this was a filament bulb, nowadays usually an LED.
+We want to replace these with full-color RGB modules.  However the housing
+only provides two terminals.
+
+Solution: An RGB LED module that requires ony two external connections,
+one of which is ground.
+
+firmware/	Code that runs on the LED module
+pcb/		PCB design
+libowled/	Arduino library for controlling LEDs
+
+The v1 PCB does not work as-is.  The pull-down resistor shoould not be
+populated, and a 1nF bypass capacitor added in parallel with the schotty diode.

@@ -1,0 +1,66 @@
+# EESchema Netlist Version 1.1 created  Sat 11 May 2013 12:55:28 BST
+(
+ ( /518B98AB SM1206 C1 10uF
+  ( 1 N-000001 )
+  ( 2 N-000009 )
+ )
+ ( /518BA0FA LEDEND D1 LED
+  ( 1 N-000007 )
+  ( 2 N-000006 )
+  ( 3 N-000002 )
+  ( 4 N-000005 )
+ )
+ ( /518BD565 SOT23-13 D2 SCH
+  ( 1 N-000003 )
+  ( 2 N-000008 )
+ )
+ ( /518B97BE SO8N IC1 AT25
+  ( 1 ? )
+  ( 2 N-000005 )
+  ( 3 N-000002 )
+  ( 4 N-000009 )
+  ( 5 N-000006 )
+  ( 6 N-000007 )
+  ( 7 N-000008 )
+  ( 8 N-000001 )
+ )
+ ( /518B983D PAD2510 P1 G-
+  ( 1 N-000009 )
+ )
+ ( /518B9835 PAD2510 P2 D+
+  ( 1 N-000003 )
+ )
+ ( /518E2E2F PAD2510 PB1 G-
+  ( 1 N-000009 )
+ )
+ ( /518E2E70 PAD2510 PB2 D+
+  ( 1 N-000003 )
+ )
+ ( /518CFCD8 SM0805 R1 10k
+  ( 1 N-000009 )
+  ( 2 N-000008 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LEDEND
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

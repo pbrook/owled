@@ -1,0 +1,66 @@
+Cmp-Mod V01 Genere par PcbNew le Sat 11 May 2013 12:55:55 BST
+
+BeginCmp
+TimeStamp = /518B98AB;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /518BA0FA;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDEND;
+EndCmp
+
+BeginCmp
+TimeStamp = /518BD565;
+Reference = D2;
+ValeurCmp = SCH;
+IdModule  = SOT23-13;
+EndCmp
+
+BeginCmp
+TimeStamp = /518B97BE;
+Reference = IC1;
+ValeurCmp = AT25;
+IdModule  = SO8N;
+EndCmp
+
+BeginCmp
+TimeStamp = /518B983D;
+Reference = P1;
+ValeurCmp = G-;
+IdModule  = PAD2510;
+EndCmp
+
+BeginCmp
+TimeStamp = /518B9835;
+Reference = P2;
+ValeurCmp = D+;
+IdModule  = PAD2510;
+EndCmp
+
+BeginCmp
+TimeStamp = /518E2E2F;
+Reference = PB1;
+ValeurCmp = G-;
+IdModule  = PAD2510;
+EndCmp
+
+BeginCmp
+TimeStamp = /518E2E70;
+Reference = PB2;
+ValeurCmp = D+;
+IdModule  = PAD2510;
+EndCmp
+
+BeginCmp
+TimeStamp = /518CFCD8;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+EndListe

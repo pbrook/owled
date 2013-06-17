@@ -1,0 +1,19 @@
+eeschema (2012-apr-16-27)-stable  >> Creation date: Thu 09 May 2013 14:18:37 BST
+
+#Cmp ( order = Reference )
+| C1         10uF        
+| D1         RGB_LED     
+| IC1        ATTINY25-SS 
+| P1         GND         
+| P2         DATA        
+#End Cmp
+
+#Cmp ( order = Value )
+| 10uF         C1        
+| ATTINY25-SS  IC1       
+| DATA         P2        
+| GND          P1        
+| RGB_LED      D1        
+#End Cmp
+
+#End List

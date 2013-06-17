@@ -1,0 +1,34 @@
+#######################################
+# Syntax Coloring Map For OneWire
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+OWLed	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+SetColor	KEYWORD2
+SetAddress	KEYWORD2
+WriteConfig	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+OWLED_COMMON_CATHODE_PASSIVE	LITERAL1
+OWLED_COMMON_CATHODE	LITERAL1
+OWLED_COMMON_ANODE	LITERAL1
+OWLED_CHANNEL_RED	LITERAL1
+OWLED_CHANNEL_GREEN	LITERAL1
+OWLED_CHANNEL_BLUE	LITERAL1
+OWLED_BRIGHT_MUL	LITERAL1
+OWLED_BRIGHT_SHIFT	LITERAL1
