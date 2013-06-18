@@ -48,9 +48,6 @@ OWLed::out_value(uint16_t value)
 	len = DELAY_ZERO;
       value >>= 1;
       pulse(len);
-Serial.print(i);
-Serial.print(" ");
-Serial.println(bit_delay);
       delayMicroseconds(bit_delay);
     }
 }

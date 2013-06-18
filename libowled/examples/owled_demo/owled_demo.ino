@@ -69,10 +69,18 @@ void loop()
       now = millis();
       if ((long)(now - last_tick) > 500)
 	{
-	  for (addr = 0; addr < 16; addr++)
+	  if (next_address == 0)
 	    {
-	      Serial.println(addr);
-	      n = (count + addr) % 7;
+	      for (addr = 0; addr < 16; addr++)
+		{
+		  n = (count + addr) % 7;
+		  leds.SetColor(addr, rgb[n].r, rgb[n].g, rgb[n].b);
+		}
+	    }
+	  else
+	    {
+	      addr = next_address - 1;
+	      n = count;
 	      leds.SetColor(addr, rgb[n].r, rgb[n].g, rgb[n].b);
 	    }
 	  count++;
